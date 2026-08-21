@@ -89,3 +89,38 @@ nav a {
 
     background-color: #F0F4FF;
 }
+.flag {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.band {
+    width: 100%;
+    height: 133.33px;
+}
+
+.black-band {
+    background-color: #000000;
+    position: relative;
+}
+
+.red-band {
+    background-color: #CE1126;
+}
+
+.green-band {
+    background-color: #339E35;
+}
+
+.sun-container {
+    /* We will centre this next */
+}
+
+.sun {
+    width: 80px;
+    height: 80px;
+    background-color: #CE1126;
+    border-radius: 50%;
+}
