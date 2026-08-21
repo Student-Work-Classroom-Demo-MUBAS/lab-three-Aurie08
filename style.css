@@ -3,3 +3,27 @@
 *::after {
     box-sizing: border-box;
 }
+/* Specificity: 0-0-1 */
+p {
+    color: black;
+}
+
+/* Specificity: 0-1-0 */
+.intro {
+    color: blue;
+}
+
+/* Specificity: 1-0-0 */
+#hero {
+    color: red;
+}
+
+/* Specificity: 0-1-1 */
+p.intro {
+    color: green;
+}
+
+/* !important */
+p {
+    color: purple !important;
+}
