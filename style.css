@@ -23,7 +23,39 @@ p.intro {
     color: green;
 }
 
+
 /* !important */
 p {
     color: purple !important;
+}
+/* DESCENDANT */
+nav li {
+    list-style: none;
+}
+
+/* CHILD */
+nav > ul {
+    display: flex;
+}
+
+/* ADJACENT SIBLING */
+h2 + p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* GENERAL SIBLING */
+h2 ~ p {
+    margin-left: 1rem;
+}
+
+/* GROUPING */
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+/* NAVIGATION LINKS */
+nav a {
+    font-weight: bold;
+    text-decoration: none;
 }
