@@ -60,7 +60,7 @@ nav a {
     text-decoration: none;
 }
 .card {
-   
+    position: relative;
     width: 400px;
     padding: 30px;
     margin: 30px auto;
